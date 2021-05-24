@@ -1,1 +1,137 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+	  font-family: Circular-Std-Bold;
+	  src: url(./assets/fonts/Circular-Std-Bold.otf);
+    src: url(./assets/fonts/Circular-Std-Book.otf);
+    src: url(./assets/fonts/Circular-Std-Medium.otf);
+}
+
+.btn{
+  font-family: Circular-Std-Bold;
+  background-color: #1E96D4;
+  width: 113px;
+  height: 56px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.title{
+   font-family: Circular-Std-Bold;
+   font-weight: 400;
+   font-weight: bold;
+   font-size: 16px;
+   color: #131415;
+}
+
+.sub-title{
+   font-family: Circular-Std-Bold;
+   font-weight: 500;
+   font-weight: bold;
+   font-size: 14px;
+   color: #111111;
+}
+
+.sub-title-2{
+   font-family: Circular-Std-Bold;
+   font-weight: 400;
+   font-weight: bold;
+   font-size: 14px;
+   color: #6B7280;
+   vertical-align: top;
+}
+.sub-title-3{
+   font-family: Circular-Std-Bold;
+   font-weight: 400;
+   font-weight: bold;
+   font-size: 10px;
+   color: #6B7280;
+   vertical-align: top;
+}
+.content{
+   font-family: Circular-Std-Bold;
+   font-size: 10px;
+   font-weight: 400;
+   color: #6B7280;
+   align-content: flex-end;
+}
+.img-preview {
+    width: 90%;
+    height: 90%;
+}
+
+.border-default-color {
+   border-color: #EEEFF2;
+}
+
+.border-hover-color {
+   border-color:#B6BCC6;
+}
+
+.border-selected-color {
+   border-color: #1E96D4;
+
+}
+
+.border-focus-no-selected-color {
+   border-color: #D8DCE0;
+}
+
+.border-focus-selected-color {
+   border-color: #1E96D4;
+}
+
+footer {
+    position: fixed;
+    height: 13%;
+    bottom: 0;
+    width: 100%;
+    background-color: #F5F5F7;
+    border-color:#D2D2D7;
+}
+
+.content-price {
+   font-family: Circular-Std-Bold;
+   font-weight: 500;
+   font-weight: bold;
+   font-size: 27.648px;
+   color: #111111;
+
+}
+div p {
+   margin: 1px 0;
+}
+
+ .scroll {
+     height:100%;
+     overflow:auto;
+     overflow: scroll;
+     overflow-y: scroll;
+ }
+
+ .main-card{
+    width: 100%;
+    height: 100%;
+ }
+ .main-image:hover{
+     -webkit-transform:scale(1.1);
+     transform:scale(1.1);
+     border: 1px solid rgba(0, 0, 0, 0);
+     border-radius: 10px 10px 10px 10px;
+     transition-duration: 0.2s;
+ }
+ .secodary-card {
+     width: 100%;
+     height: 100%;
+ }
+ @media (min-width:535px) {
+
+ }
+ @media (min-width:1336px) {
+    .fix-div{
+     position:fixed;
+     width: 45%;
+   }
+ }
+
+
+
+
+/*hide-on-1440-1024 Esconder los elementos con esta clase*/
